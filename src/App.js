@@ -21,6 +21,7 @@ import styled from 'styled-components';
 const Header = styled.h1`
   color: ${props => props.color};
   text-decoration: underline;
+  font-size: 1rem;
   transition: 3s;
   &:hover {
     color: yellow;
